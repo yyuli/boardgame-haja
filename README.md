@@ -34,6 +34,17 @@ ___
 ____
 ## 2. 기술 및 개발 환경
 ### 사용 기술
+**json server 사용법**
+1. src 파일 안에 data 폴더를 위치시킵니다. 
+2. 프로젝트 폴더 안에서 json-server를 설치합니다
+```
+npm i -g json-server
+```
+3. data 폴더 안에서 json-server를 시작시킵니다. 
+```
+json-server --watch db.json --port 3001
+```
+4. App.js 내 fetchData 함수를 이용해 데이터를 받으시고 사용하시면 됩니다. 
 
 ### 개발 환경
 
