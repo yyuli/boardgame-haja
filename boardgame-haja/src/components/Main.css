@@ -1,0 +1,21 @@
+.a11y-hidden {
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+  }
+  
+  .basic-main {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(220px, 1fr));
+    gap: 24px 23px;
+    border: 2px solid #bdbdbd;
+    border-radius: 15px;
+    background: #fff;
+    padding: 30px;
+    margin-top: 12px;
+  }

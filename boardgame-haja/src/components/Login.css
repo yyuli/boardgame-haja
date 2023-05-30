@@ -1,0 +1,132 @@
+.logo.big {
+  font-family: "Rubik Mono One", sans-serif;
+  color: #58a942;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 3px;
+}
+
+.under-line {
+  display: block;
+  width: 650px;
+  height: 2px;
+  background-color: #bdbdbd;
+  margin: 18px auto 12px;
+}
+
+.cinema-nav ul {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.cinema-nav .li-item {
+  padding: 10px 20px;
+  color: #828282;
+}
+.cinema-nav .li-item.active {
+  font-weight: bold;
+  color: #000;
+}
+
+.li-item.link {
+  display: block;
+}
+
+.a11y-hidden {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+
+.login-main {
+  border: 2px solid #bdbdbd;
+  border-radius: 15px;
+  background: #fff;
+  padding: 80px 317px;
+  margin-top: 12px;
+  box-sizing: border-box;
+}
+
+.labl-email,
+.labl-pw {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 12px;
+  color: #767676;
+}
+
+.inp-email,
+.inp-pw {
+  display: block;
+  border: none;
+  border-bottom: 2px solid #dbdbdb;
+  width: 386px;
+  padding: 8px;
+  font-size: 14px;
+  margin: 0 auto;
+}
+
+.inp-email {
+  margin-bottom: 21px;
+}
+
+.inp-email:focus,
+.inp-pw:focus {
+  outline: none;
+  border-color: #58a942;
+}
+
+.btn-login {
+  background-color: #58a942;
+  border-radius: 44px;
+  width: 386px;
+  height: 53px;
+  color: white;
+  margin-top: 36px;
+}
+
+/* //article */
+/* pagination */
+.nav-pagination {
+  width: 374px;
+  height: 60px;
+  background-color: white;
+  border: 3px solid #bdbdbd;
+  border-radius: 10px;
+  margin: 30px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination {
+  display: flex;
+}
+
+.page-link {
+  display: block;
+  font-size: 20px;
+  margin: 0 5px;
+  line-height: 40px;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: #bdbdbd;
+}
+
+.initial {
+  font-weight: 900;
+  background-color: #ececec;
+  color: #bdbdbd;
+}
+
+.selected {
+  background-color: #a0d792;
+  color: white;
+}

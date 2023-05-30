@@ -1,0 +1,85 @@
+.cinema-card {
+  border: 1px solid #bdbdbd;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.cinema-contents {
+  padding: 19px 20px 18px;
+}
+
+.cinema-contents img {
+  border: 1px solid #bdbdbd;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  aspect-ratio: 180 / 250;
+  width: 100%;
+  object-fit: cover;
+}
+.cinema-title {
+  font-size: 16px;
+  margin: 12px 0;
+}
+
+.ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.cinema-info {
+  font-size: 13px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 5px;
+}
+.cinema-info li {
+  overflow: hidden;
+  display: flex;
+  gap: 5px;
+}
+.cinema-info li :first-child {
+  color: #828282;
+  flex-shrink: 0;
+}
+
+.cinema-info li:nth-child(3) {
+  width: 100%;
+}
+
+.star {
+  background: url('../../../images/icon-star.svg') no-repeat 0 0 / 1em;
+  padding-left: 1.3em;
+}
+
+.button-group {
+  border-top: 1px solid #bdbdbd;
+  display: flex;
+}
+
+.button-group button,
+.button-group a {
+  background: #f2f2f2;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.button-group .heart {
+  border-right: 1px solid #bdbdbd;
+  border-radius: 0 0 0 10px;
+}
+.button-group .heart:focus {
+  z-index: 1;
+}
+.button-group .heart::before {
+  content: '';
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+  background: url('../../../images/icon-heart.png') no-repeat 0 50% / 1em;
+}
+.button-group button,
+.button-group a {
+  border-radius: 0 0 10px 0;
+}

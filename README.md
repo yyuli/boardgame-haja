@@ -42,7 +42,7 @@ npm i -g json-server
 ```
 3. data 폴더 안에서 json-server를 시작시킵니다. 
 ```
-json-server --watch db.json --port 3001
+json-server --watch boardgame.json --port 3001
 ```
 4. App.js 내 fetchData 함수를 이용해 데이터를 받으시고 사용하시면 됩니다. 
 

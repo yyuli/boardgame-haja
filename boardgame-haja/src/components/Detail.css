@@ -1,0 +1,236 @@
+.container {
+    width: 1060px;
+    border: 2px solid #bdbdbd;
+    border-radius: 15px;
+    background-color: #f2f2f2;
+    margin: 86px auto 135px;
+    box-sizing: border-box;
+    padding: 40px 30px 30px;
+    position: relative;
+  }
+  
+  /* header */
+  .logo {
+    font-family: "Rubik Mono One", sans-serif;
+    color: #58a942;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 3px;
+  }
+  
+  .login-container {
+    position: absolute;
+    top: 44px;
+    right: 48px;
+  }
+  
+  .login,
+  .join {
+    font-size: 16px;
+    font-weight: 900;
+  }
+  
+  .login::after {
+    display: inline-block;
+    content: "";
+    width: 2px;
+    height: 15px;
+    background-color: #000;
+    vertical-align: middle;
+    margin: 0 8px;
+  }
+  
+  .search {
+    position: relative;
+    text-align: center;
+  }
+  
+  .search-input {
+    width: 400px;
+    height: 50px;
+    border: 1px solid #58a942;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .search-input:focus {
+    outline-color: #58a942;
+  }
+  
+  .search-input::placeholder {
+    color: #a0d792;
+  }
+  
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .under-line {
+    display: block;
+    width: 650px;
+    height: 2px;
+    background-color: #bdbdbd;
+    margin: 18px auto 22px;
+  }
+  
+  .detail-nav p {
+    font-size: 20px;
+    color: #7e7e7e;
+    text-align: center;
+  }
+  
+  .list-back {
+    position: relative;
+    top: 25px;
+  }
+  
+  .list-back a {
+    font-size: 20px;
+  }
+  
+  .a11y-hidden {
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+  }
+  /* //header */
+  
+  .detail-main {
+    display: flex;
+    border: 2px solid #bdbdbd;
+    border-radius: 15px;
+    background: #fff;
+    padding: 59px 38px 34px;
+    margin-top: 22px;
+  }
+  
+  .detail-left {
+    width: 304px;
+    margin-right: 54px;
+  }
+  
+  .detail-img {
+    width: 304px;
+    border-radius: 10px;
+    vertical-align: top;
+  }
+  
+  .heart-btn {
+    display: block;
+    font-size: 25px;
+    margin: 30px auto 0;
+  }
+  
+  .heart-btn img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  
+  .detail-name {
+    display: flex;
+    align-items: center;
+      margin-bottom: 68px;
+  }
+  
+  .rank {
+    width: 85px;
+    height: 85px;
+    color: white;
+    background-color: #58a942;
+    font-size: 25px;
+    line-height: 92px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: 900;
+    margin-right: 25px;
+  }
+  
+  .detail-name h3 {
+    font-size: 40px;
+  }
+  
+  .detail-des {
+      display: flex;
+      flex-wrap: wrap;
+  }
+  
+  .detail-des div {
+      margin: 14px 7px;
+  }
+  
+  .title {
+    font-size: 20px;
+    color: #959595;
+  }
+  
+  .des {
+    font-size: 25px;
+    color: #58a942;
+    font-weight: 700;
+    border: 3px solid #68cc58;
+      border-radius: 5px;
+      width: 171px;
+      height: 89px;
+      line-height: 89px;
+      text-align: center;
+      box-sizing: border-box;
+  }
+  
+  /* footer */
+  .footer {
+    background-color: #f2f2f2;
+    /* height: 213px; */
+    padding: 53px 160px 38px;
+    box-sizing: border-box;
+    bottom: 0;
+  }
+  
+  .first-footer {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #c4c4c4;
+    margin-bottom: 36px;
+  }
+  
+  .first-footer img {
+    margin-left: 20px;
+  }
+  
+  .footer-text {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 42px;
+  }
+  
+  .sec-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .sec-footer span {
+    /* display: inline-block; */
+    font-size: 14px;
+  }
+  
+  .sec-footer span:not(:last-child):after {
+    display: inline-block;
+    content: "";
+    width: 1px;
+    height: 18px;
+    background-color: #4f4f4f;
+    margin: 0 8px;
+    vertical-align: middle;
+  }
+  

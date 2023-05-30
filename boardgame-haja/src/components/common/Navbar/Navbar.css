@@ -1,0 +1,21 @@
+.under-line {
+  display: block;
+  width: 650px;
+  height: 2px;
+  background-color: #bdbdbd;
+  margin: 18px auto 12px;
+}
+
+.cinema-nav ul {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.cinema-nav button {
+  padding: 10px 20px;
+  color: #828282;
+}
+.cinema-nav button.active {
+  font-weight: bold;
+  color: #000;
+}
